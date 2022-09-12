@@ -30,7 +30,7 @@ button:hover {
   padding: 8px;
 }
 
-.imcomplete-area {
+.incomplete-area {
   background-color: blueviolet;
   width: 400px;
   min-height: 200px;
@@ -56,9 +56,11 @@ button:hover {
 }
 
 li {
+  min-width: 120px;
   list-style: none;
 }
 
 .list-raw {
+  margin-top: 10px;
   display: flex;
 }
